@@ -29,20 +29,20 @@ We should think through the following questions:
     3. What are the patterns behind the app?
     4. How do I make the app most useful for target audience?
 
-The PRD should contain the following information - 
-Project Overview: 
-<a brief overview of the project> 
+## The PRD should contain the following information - 
+1. Project Overview: 
+   <a brief overview of the project> 
 
-Skills Required: 
+2. Skills Required: 
     1. Python Metrics Json Data Processing 
     2. OpenAI APIs 
     3. UI development using noje js or any other FE framework. 
 
-Key Features:
-<write the key features based on above requirements>
+3. Key Features:
+    <write the key features based on above requirements>
 
-End Users:
-<Define the end users here>
+4. End Users:
+    <Define the end users here>
 
 ### Please remember these points - 
 1. Use OPENAI Chat Completions and not the newer Responses API
