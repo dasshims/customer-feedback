@@ -22,13 +22,13 @@ Example Input (feedback.csv)
     3,"Smooth login and dashboard experience.",5
     ```
 
-Write a PRD for a MVP version of the app that I am going to vibe code using openAI codex.
+### Write a PRD for a MVP version of the app that I am going to vibe code using openAI codex.
 
-We should think through the following questions:
-    1. What is the app
-    2. What do I use the app for
-    3. What are the patterns behind the app?
-    4. How do I make the app most useful for target audience?
+### We should think through the following questions:
+1. What is the app
+2. What do I use the app for
+3. What are the patterns behind the app?
+4. How do I make the app most useful for target audience?
 
 ## The PRD should contain the following information - 
 1. Project Overview: 
