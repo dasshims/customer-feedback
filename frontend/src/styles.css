@@ -1,0 +1,161 @@
+:root {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  line-height: 1.5;
+  color: #1f2933;
+  background-color: #f7fafc;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app-shell {
+  margin: auto;
+  width: min(960px, calc(100% - 3rem));
+  padding: 2.5rem;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+}
+
+.app-title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.app-subtitle {
+  margin-top: 0.75rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  color: #4a5568;
+}
+
+.section-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 1.75rem;
+  margin-bottom: 1.5rem;
+  background-color: #f9fbfd;
+}
+
+.button {
+  appearance: none;
+  border: none;
+  border-radius: 999px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  background: #a0aec0;
+  box-shadow: none;
+}
+
+.button:not(:disabled):hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.25);
+}
+
+.file-input {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.loading {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.error-banner {
+  background: rgba(220, 38, 38, 0.08);
+  border: 1px solid rgba(220, 38, 38, 0.3);
+  color: #991b1b;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.results-card {
+  padding: 1rem;
+  border-radius: 14px;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+.sentiment-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.sentiment-positive {
+  color: #059669;
+}
+
+.sentiment-neutral {
+  color: #1d4ed8;
+}
+
+.sentiment-negative {
+  color: #b91c1c;
+}
+
+.summary-card,
+.suggestions-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.summary-card h2,
+.suggestions-card h2 {
+  margin-top: 0;
+}
+
+.suggestions-card ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.suggestions-card li + li {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .app-shell {
+    padding: 1.5rem;
+  }
+
+  .app-title {
+    font-size: 1.5rem;
+  }
+}
