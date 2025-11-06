@@ -71,3 +71,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+node_modules/
+dist/
+build/
+frontend/.env
+frontend/node_modules/
