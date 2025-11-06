@@ -15,11 +15,12 @@ I am building an app called Customer Feedback Sentiment Reporter with the follow
 -- “Given 50% positive, 25% neutral, 25% negative — summarize key themes and recommend two actions.”
 
 Example Input (feedback.csv)
+    ```
     feedback_id,text,rating
     1,"Love the interface, but app crashes sometimes.",4
     2,"Very slow response time and confusing error messages.",2
     3,"Smooth login and dashboard experience.",5
-
+    ```
 
 Write a PRD for a MVP version of the app that I am going to vibe code using openAI codex.
 
